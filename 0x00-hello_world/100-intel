@@ -1,6 +1,10 @@
 #!/bin/bash
 <<<<<<< HEAD
+<<<<<<< HEAD
 gcc -S -masm=intel $CFILE
 =======
 gcc -S $CFILE
 >>>>>>> origin
+=======
+gcc -masm=intel -S $CFILE
+>>>>>>> 68e6408f43a3679d7e4f18a563839dfc65d39b6d
