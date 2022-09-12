@@ -1,8 +1,9 @@
 #include <stdio.h>
 /**
+ * main - Entry block
+ * Description - prints hexadecimal number values
  *
- *
- *
+ * Return: 0
  */
 int main(void)
 {
