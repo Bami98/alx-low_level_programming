@@ -1,16 +1,15 @@
 #include "main.h"
 /**
- * main : Entry point
- * Description : prints the word _putchar
- *
- * Return : 0
+ * main - Entry point
+ * Description: prints the word _putchar
+ * Return: 0
  */
 int main(void)
 {
 	char s[] = "_putchar";
 	int i = 0;
 
-	while(s[i] != '\0')
+	while (s[i] != '\0')
 	{
 		_putchar(s[i]);
 		i++;
