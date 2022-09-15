@@ -3,7 +3,7 @@
  * jack_bauer - prints every minute of the day ( 00:00 to 23:59)
  * putchar: prints a characer
  */
-int jack_bauer(void)
+int jac_bauer(void)
 {
 	int sec = 0;
 	int w = 0, x = 0, y = 0, z = 0;
