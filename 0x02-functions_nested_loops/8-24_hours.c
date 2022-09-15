@@ -16,21 +16,21 @@ int jack_bauer(void)
 		_putchar(y + '0');
 		_putchar(z + '0');
 
-		d++;
-		if (d > 9)
+		z++;
+		if (z > 9)
 		{
-			d = 0;
-			c++;
+			z = 0;
+			y++;
 		}
-		if (c > 5)
+		if (y > 5)
 		{
-			c = 0;
-			b++;
+			y = 0;
+			x++;
 		}
-		if (b > 9)
+		if (x > 9)
 		{
-			b = 0;
-			a++;
+			x = 0;
+			w++;
 		}
 		sec++;
 	}
