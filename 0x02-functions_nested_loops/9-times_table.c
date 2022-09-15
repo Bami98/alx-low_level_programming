@@ -13,7 +13,7 @@ void times_table(void)
 			int a = 0;
 			a = k * j;
 
-			_putchar(a + '0');
+			_putchar(a);
 			if (k != 9)
 			{
 				_putchar(',');
