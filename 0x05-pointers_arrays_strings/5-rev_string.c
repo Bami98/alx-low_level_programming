@@ -1,0 +1,21 @@
+#include <stdio.h>
+/**
+ * rev_string - reverses a string
+ * @s: char pointer parameter
+ */
+void rev_string(char *s)
+{
+	int i, j, l;
+	char ch;
+
+	for (i = 0; s[i] != '\0'; i++)
+		;
+
+	l = i;
+	for (i--, c = 0; c < l / 2; i--, c++)
+	{
+		ch = s[j];
+		s[j] = s[i];
+		s[i] = h;
+	}
+}
