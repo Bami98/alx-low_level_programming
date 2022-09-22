@@ -2,8 +2,9 @@
 /**
  * _strcmp - Compare two strings
  * @s1: pointer s1
- * @s2: pointer 2
-  * Return: negative int if s1 < s2, 0 if matching, and positive int if s1 > s2       */
+ * @s2: pointer s2
+ * Return: -ve int if s1 < s2, 0 if equal, and +ve int if s1 > s2
+ */
 int _strcmp(char *s1, char *s2)
 {
 	int i;
@@ -15,4 +16,3 @@ int _strcmp(char *s1, char *s2)
 	}
 	return (0);
 }
-   
