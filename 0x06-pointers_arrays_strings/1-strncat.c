@@ -3,6 +3,7 @@
  * *_strncat - concatenates n bytes of two strings
  * @dest: destination pointer
  * @src: source pointer
+ * @n: length of array;
  * Return: void
  */
 char *_strncat(char *dest, char *src, int n)
