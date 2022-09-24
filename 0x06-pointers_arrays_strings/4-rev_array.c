@@ -10,8 +10,8 @@ void reverse_array(int *a, int n)
 
 	for (j = 0; j < (n / 2); j++)
  	{
-		k = a[i];
-		a[i] = a[n - i - 1];
+		k = a[j];
+		a[j] = a[n - j - 1];
 		a[n - j - 1] = k;
 	}
 }
