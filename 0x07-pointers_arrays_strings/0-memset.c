@@ -1,7 +1,7 @@
 #include "main.h"
 /**
  * _memset - fills memory with constant byte
- * @s: buffer array
+:::dfasdfffer array
  * @b: constant byte
  * @n: number of bytes of memory area to fill
  * Description: fill the first 'n' bytes of memory area pointed by 's'
