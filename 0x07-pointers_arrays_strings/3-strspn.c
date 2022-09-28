@@ -6,27 +6,26 @@
  */
 unsigned int _strspn(char *s, char *accept)
 {
-	int i, j, len;
+	int i, j, found;
 
 	i = 0;
-	length = 0;
 
 	while (s[i] != '\0')
 	{
 		j = 0;
+		found = 1;
 		while (accept[j] != '\0')
 		{
 			if (s[i] == accept[j])
 			{
-				length++;
+				found = 0;
 				break;
 			}
 			j++;
 		}
-		if (accept[j] == '\0')
+		if (found == 1)
 			break;
 		i++;
 	}
-	return (length);
+	return (i);
 }
-
