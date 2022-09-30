@@ -20,6 +20,7 @@ int sqt(int i, int n)
 	{
 		return  (sqt(i + 1, n));
 	}
+}
 /**
  * _sqrt_recursion - returns the sqrt a number n
  * @n: integer = the numbe we want to find the sqrt of
