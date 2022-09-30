@@ -29,6 +29,8 @@ int sqt(int i, int n)
  */
 int _sqrt_recursion(int n)
 {
+	if (n == 0)
+		return (0);
 	return (sqt(1, n));
 }
 
