@@ -1,13 +1,15 @@
 #include <stdio.h>
 /**
- * main - Entry block, it prints the first argv value
- * @argc: no of command line argument passed by the user
- * @argv: is an array of pointer to arrays of char objects
- * Return: 1
+ * main - prints the name of the file
+ * @argc: no of argument
+ * @argv: arguments passed to main as an array of strings
+ * Return: 0
  */
 int main(int argc, char *argv[])
 {
+	(void) argc;
+
 	printf("%s\n", argv[0]);
-	return (1);
+	return (0);
 }
 
