@@ -5,7 +5,7 @@
  * @i: incrementor divisor
  * Return: 0 if not prime, 1 if prime
  */
-int check(i, num)
+int check(int i, int num)
 {
 	if (num == i)
 		return (1);
