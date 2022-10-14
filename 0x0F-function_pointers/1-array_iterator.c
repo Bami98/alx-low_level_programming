@@ -1,4 +1,4 @@
-#include <stdef.h>
+#include <stddef.h>
 /**
  * array_iterator - calls a function pointer on each element of an array
  * @array: array to iterate
